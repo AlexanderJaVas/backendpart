@@ -9,7 +9,7 @@ This is a back end part of web application "OpenAI API Chat" which provides:
 
 It is written on Java with Spring framework.
 
-This application is running on Internet and is available on URL http://213.226.114.186:8080
+This application is running on Internet and is available on URL https://staring-blindly-into.space
 
 HOW TO USE.
 
@@ -22,6 +22,9 @@ HOW TO USE.
        MONGO_PASSWORD=""
        MONGO_CLUSTER=""
        OPENAI_API_KEY=""
+       SSL_KEY_STORE=""
+       SSL_PASSWORD=""
+   
  
-3. Run the application in IDE
-4. Also you can make .jar file with command mvn deploy and copy it on remote server and then run it with java -jar your_filename.jar command. Ensure that TCP ports 8080 and 27017 are not blocked by any firewall
+4. Run the application in IDE
+5. Also you can make .jar file with command mvn deploy and copy it on remote server and then run it with java -jar your_filename.jar command. Ensure that TCP ports 443 and 27017 are not blocked by any firewall
